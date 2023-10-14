@@ -86,7 +86,7 @@ while is_on:
             new_data = pd.DataFrame(guessed_province)
             new_data.to_csv(guessed_dir)
             is_on = False
-
+    # this exception is handling the error when user click cancel, and it will save the guessed data and close it
     except AttributeError:
         new_data = pd.DataFrame(guessed_province)
         new_data.to_csv(guessed_dir)
