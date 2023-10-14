@@ -4,23 +4,23 @@ import pandas as pd
 import os
 import sys
 
-# use this directory when generating exe file
-if getattr(sys, 'frozen', False):
-    # If the application is run as a bundle, the PyInstaller bootloader
-    # extends the sys module by a flag frozen=True and sets the app
-    # path into variable _MEIPASS'.
-    application_path = sys._MEIPASS
-else:
-    application_path = os.path.dirname(os.path.abspath(__file__))
+# # use this directory when generating exe file
+# if getattr(sys, 'frozen', False):
+#     # If the application is run as a bundle, the PyInstaller bootloader
+#     # extends the sys module by a flag frozen=True and sets the app
+#     # path into variable _MEIPASS'.
+#     application_path = sys._MEIPASS
+# else:
+#     application_path = os.path.dirname(os.path.abspath(__file__))
+#
+# csv_dir = application_path + "/indonesia_province.csv"
+# image_dir = application_path + "/indonesia_map.gif"
+# guessed_dir = application_path + "/guessed_province.csv"
 
-csv_dir = application_path + "/indonesia_province.csv"
-image_dir = application_path + "/indonesia_map.gif"
-guessed_dir = application_path + "/guessed_province.csv"
-
-# # use this file to simulate this file using IDE
-# csv_dir = "indonesia_province.csv"
-# image_dir = "indonesia_map.gif"
-# guessed_dir = "guessed_province.csv"
+# use this file to simulate this file using IDE
+csv_dir = "indonesia_province.csv"
+image_dir = "indonesia_map.gif"
+guessed_dir = "guessed_province.csv"
 
 provinces = pd.read_csv(csv_dir)
 
