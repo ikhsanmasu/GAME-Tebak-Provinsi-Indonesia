@@ -7,5 +7,5 @@ the player just need to type all their known province and if it's right the game
 
 download the exe file to try: https://drive.google.com/file/d/1dkayve5wxiF5Arjt-7rgsmHAzpPw4laG/view?usp=drive_link
 
-# This game is part of 100 Days of Code The Complete Python Pro Bootcamp for 2023 from Udemy
-# This project uses Python (list comprehension, function, f keyword for string, exception handling, etc), turtle library, and pandas for dealing with CSV files
+This game is part of 100 Days of Code The Complete Python Pro Bootcamp for 2023 from Udemy
+This project uses Python (list comprehension, function, f keyword for string, exception handling, etc), turtle library, and pandas for dealing with CSV files
